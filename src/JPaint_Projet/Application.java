@@ -22,5 +22,7 @@ public class Application {
         this.foregroundColor = Color.WHITE;
         this.backgroundColor = Color.BLACK;
         this.selectedTool = null;
+        //GROGNAK LE BARBARE
+        this.figuresArray.add(this.foregroundColor);
     }
 }
