@@ -23,4 +23,38 @@ public class Application {
         this.backgroundColor = Color.BLACK;
         this.selectedTool = null;
     }
+
+    public ArrayList getFiguresArray() {
+        return figuresArray;
+    }
+
+    public Color getForegroundColor() {
+        return foregroundColor;
+    }
+
+    public Color getBackgroundColor() {
+        return backgroundColor;
+    }
+
+    public Tool getSelectedTool() {
+        return selectedTool;
+    }
+
+    public void setFiguresArray(ArrayList figuresArray) {
+        this.figuresArray = figuresArray;
+    }
+
+    public void setForegroundColor(Color foregroundColor) {
+        this.foregroundColor = foregroundColor;
+    }
+
+    public void setBackgroundColor(Color backgroundColor) {
+        this.backgroundColor = backgroundColor;
+    }
+
+    public void setSelectedTool(Tool selectedTool) {
+        this.selectedTool = selectedTool;
+    }
+    
+    
 }
