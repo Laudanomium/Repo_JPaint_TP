@@ -12,4 +12,5 @@ import JPaint_Projet.Application;
  */
 public interface Observer {
     public void update(Application app);
+    //rholala
 }
