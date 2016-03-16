@@ -21,6 +21,6 @@ public class Application {
         this.figuresArray = new ArrayList();
         this.foregroundColor = Color.WHITE;
         this.backgroundColor = Color.BLACK;
-        
+        this.selectedTool = null;
     }
 }
